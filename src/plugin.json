@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "panel",
+  "name": "My React Singlestat Panel",
+  "id": "entel-myreactsinglestat-panel",
+  "info": {
+    "keywords": ["singlestat", "stat", "react", "sparkline", "gauge"],
+    "description": "Paneles mas especificos",
+    "author": {
+      "name": "Entel"
+    },
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=10.0.3",
+    "plugins": []
+  }
+}

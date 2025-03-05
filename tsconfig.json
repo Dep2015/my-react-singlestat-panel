@@ -1,0 +1,9 @@
+{
+  "extends": "./node_modules/@grafana/plugin-tools/webpack/config/tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "react"
+  },
+  "include": [
+    "src"
+  ]
+}
